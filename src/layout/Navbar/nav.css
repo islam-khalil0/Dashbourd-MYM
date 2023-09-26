@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbarLinks{
+    color: black !important;
+    margin-left: 1.2rem;
+    border-radius: 8px;
+    background-color: white;
+}
+/* .navbarLinksActive{
+    background-color: #FCD6D7 !important;
+    border-radius: 8px;
+
+} */
+
+.navbarLinks:hover,
+.navbarLinks.active {
+    background-color: #FCD6D7;
+}
+
+.navlinks{
+    margin-right: auto;
+    margin-left: 7rem;
+
+}
+@media (max-Width:1247px) and (min-width:985px) {
+    .navbarLinks{
+        margin-left: 0rem;
+    }
+    .navlinks{
+        margin-left: 0.5rem;
+    }
+}

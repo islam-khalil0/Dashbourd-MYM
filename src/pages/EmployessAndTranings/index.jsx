@@ -4,7 +4,7 @@ import styles from "./employessAndTranings.module.css";
 const index = () => {
   return (
     <div>
-      <h1>employessAndTranings</h1>
+      <h1></h1>
     </div>
   );
 };
